@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>É Brasileiro?</title>
+</head>
+<body>
+    <h1>É Brasileiro?</h1>
+    pais: <input id='pais' type='text'>
+    <input type='button' value='Vereficar' onclick='Verefica()'>
+    <div id='res'></div>
+    
+    <script>
+        function Verefica() {
+            var pais = document.getElementById('pais')
+            var res = document.getElementById('res')
+            res.innerHTML = `Vivendo em <strong>${pais.value}</strong> `
+            if(pais.value == 'Brasil'){
+                res.innerHTML += 'é Brasileiro'
+            }else{
+                res.innerHTML += 'é Estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
