@@ -1,2 +1,2 @@
 # CursoEmVideo_JSCursos
- Meus arquivos dos cursos feitos no canal Curso em video do YouTube
+ Meus arquivos dos cursos feitos no <strong>canal Curso em video</strong> do YouTube
