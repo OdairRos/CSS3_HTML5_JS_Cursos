@@ -15,8 +15,14 @@ function Contar(){
         passoV = 1
     }
 
-    for(inicioV; inicioV <=fimV; inicioV+=passoV){
-        resultado.innerHTML += `${inicioV}👉`
+    if(inicioV > fimV){
+        for(inicioV; inicioV >= fimV; inicioV-=passoV){
+            resultado.innerHTML += `${inicioV}👉`
+        }
+    }else{
+        for(inicioV; inicioV <= fimV; inicioV+=passoV){
+            resultado.innerHTML += `${inicioV}👉`
+        }
     }
     resultado.innerHTML += "🏁"
 }
