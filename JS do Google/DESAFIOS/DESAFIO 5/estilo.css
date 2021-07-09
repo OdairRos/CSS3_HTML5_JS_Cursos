@@ -20,7 +20,7 @@ section{
 }
 div{
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -28,4 +28,8 @@ footer{
     padding: 10px;
     text-align: center;
     font: normal 12px arial;
+}
+
+select{
+    width: 150px;
 }

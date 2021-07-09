@@ -1,3 +1,4 @@
+
 function Clique(){
     let sele = document.getElementById('sele')
     let valor = document.getElementById('Valor')
