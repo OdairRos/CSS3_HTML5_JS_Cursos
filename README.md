@@ -6,7 +6,8 @@
 Tabela de conteúdos
 =================
 
-<p> 
-	<li><a href="/JS do Google">Curso em video - JavaScript Patrocinado pelo Google </a></li>
+<p>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/%5BCurso%20em%20video%5D%20Html5%20e%20Css3">Curso em video - JavaScript Patrocinado pelo Google </a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/%5BRocketSeat%5D%20%20Guia%20estelar%20HTML">Rocketseat - Discover Guia estelar HTML</a></li>
  
 </p>
