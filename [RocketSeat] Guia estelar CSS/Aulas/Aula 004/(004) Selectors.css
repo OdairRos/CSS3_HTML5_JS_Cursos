@@ -1,0 +1,26 @@
+/*
+Tipos:
+    - global: *
+    - element: 'h1' 'div' 'p'
+    - id: #box #container
+    - class: .box .container
+    - atribute selector: Pseudo-class, Pseudo-element, e outros
+*/
+
+/*global*/
+*{
+    margin: 0;
+}
+
+/*id*/
+
+#container {
+    width: 200px;
+}
+
+h1{
+    background-color:black
+}
+.title{
+    color: red;
+}

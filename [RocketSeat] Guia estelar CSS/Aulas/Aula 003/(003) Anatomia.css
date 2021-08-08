@@ -1,0 +1,12 @@
+/*
+- Selector: h1
+- Declaration: color:red;
+               background-color:blue;
+
+- Properties: color: ;
+- property: red, blue
+*/
+h1{
+    color: red;
+    background-color: blue;
+}
