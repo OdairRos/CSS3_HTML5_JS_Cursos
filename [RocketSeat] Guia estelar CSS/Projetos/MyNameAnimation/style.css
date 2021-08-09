@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+#container{
+    position: relative;
+}
+
+body{
+    background-color: black;
+}
+#nome{
+    font-family: 'Monoton', cursive;
+    font-size:30pt;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 330px);
+    
+}
+
+#A, #D, #O, #I, #R, #J{
+    animation: Color 3s infinite backwards;
+}
+
+@keyframes Color {
+    10%{
+        color: red;
+        font-size:40pt;
+
+    }
+    20%{
+        color: green;
+        font-size:50pt;
+    }
+    30%{
+        color: yellow;
+        font-size: 53pt;
+    }
+}
+
+
+
+

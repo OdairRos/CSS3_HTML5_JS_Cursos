@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+}
+h1{
+    color: red;
+}
+
+strong{
+    color: green
+}
