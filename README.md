@@ -7,10 +7,10 @@ Tabela de conteúdos
 =================
 
 <p>
-	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/%5BCurso%20em%20video%5D%20Html5%20e%20Css3">Curso em video - JavaScript Patrocinado pelo Google </a></li>
-	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/%5BRocketSeat%5D%20%20Guia%20estelar%20HTML">RocketSeat - Discover Guia estelar HTML</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/JAVASCRIPT/%5BCurso%20em%20video%5D%20JS%20do%20Google">Curso em video - JavaScript Patrocinado pelo Google </a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20%20Guia%20estelar%20HTML">RocketSeat - Discover Guia estelar HTML</a></li>
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Html%20que%20faz%20sentido%20para%20todos">RocketSeat - Discover HTML para astronautas</a></li>
- 
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20Guia%20estelar%20CSS">RocketSeat - Discover Guia estelar CSS</a></li>
 </p>
 
 
