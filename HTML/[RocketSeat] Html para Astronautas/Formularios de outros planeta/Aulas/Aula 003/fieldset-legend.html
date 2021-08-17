@@ -1,0 +1,49 @@
+<!--
+    fieldset
+
+    - agrupamento de campos
+    - mesmo proposito 
+    - semantico
+    - acessibilidade
+
+    Atributos especiais
+    - disabled
+        - desabilita todos os elementos internoss
+        - não serão enviados ao submeter formulario
+
+    - form
+        - o id de um formulario ao qual esse fieldset pertence
+        - não precisa estar dentro do formulario
+
+    - name
+        - nome do grupo
+
+    <legend>
+        -nome do agrupamento
+        - primeiro elemento dentro do fieldset
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+</head>
+<body>
+    
+    <form action="" id='contato'>
+        <button>enviar</button>
+
+    </form>
+
+    <fieldset form="contato">
+        <legend>Contato</legend>
+        <label for="">Nome</label>
+        <input type="text">
+
+    </fieldset>
+    
+</body>
+</html>
