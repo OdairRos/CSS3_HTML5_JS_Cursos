@@ -1,0 +1,42 @@
+<!--
+
+    Input email
+
+    - required
+    - placeholder
+    - readonly
+    - disabled
+    - multiple
+    - size 
+    - pattern
+    - title
+    - datalist
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title>
+</head>
+<body>
+    <datalist id='emails'>
+        <option value="odair@gmail.com"></option>
+    </datalist>
+    <form action="">
+        <input type="email"
+        placeholder="email"
+        minlength="8"
+        multiple
+        pattern=".+odair\.com\.br"
+        title="somente email odair.com.br"
+        list='emails'
+        >
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

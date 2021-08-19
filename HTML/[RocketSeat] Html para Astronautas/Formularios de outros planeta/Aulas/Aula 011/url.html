@@ -1,0 +1,42 @@
+<!--
+    Input url
+        - disabled
+        - readonly
+        - placeholder
+        - required
+        - minlength
+        - maxlength
+        - size
+        - pattern
+        - title
+        - list
+        - spellcheck
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>url</title>
+</head>
+<body>
+    <datalist id='urls'>
+        <option value="http://odair.com.br"></option>
+    </datalist>
+    <form action="">
+        <input type="url"
+        placeholder="http://example.com.br"
+        pattern=".*\.com\.br.*"
+        title="Somente dominios .com.br serão aceitos"
+        required
+        list="urls"
+        spellcheck="false"
+
+        >
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
