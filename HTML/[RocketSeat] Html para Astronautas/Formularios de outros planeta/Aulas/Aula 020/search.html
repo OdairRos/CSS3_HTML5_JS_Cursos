@@ -1,0 +1,36 @@
+<!--
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+<body>
+    <datalist id='terms'>
+        <option >Windows</option>
+        <option>Mac</option>
+        <option>Linux</option>
+        <option>Outros</option>
+    </datalist>
+
+    <form action="">
+        <fieldset>
+            <legend>Sistemas operacionais</legend>
+            <input type="search" name="q" list='terms'
+            placeholder='Digite seu sistema operacional'
+            size='29'
+            aria-label='Pesquisar'>
+            
+            <button type="submit">Enviar</button>
+        </fieldset>
+        
+    </form>
+    
+    
+</body>
+</html>
