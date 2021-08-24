@@ -1,0 +1,46 @@
+<!--
+    <video>
+        - src
+        - controls
+        - width
+        - height
+        - autoplay(não funciona em todos browsers)
+        - preload
+        - loop(Não funciona em todos browsers)
+        - muted
+        - poster
+
+        - se não funcionar?
+            - fallback content
+
+        - source
+            - src
+            - type
+
+        - É melhor usar serviços de terceiros
+        onde as estruturas de entendimento de video ja estão prontas
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+</head>
+<body>
+    <video controls
+    width='500px'
+    height='400px'
+    poster="Assets-example/load.png"
+    preload='auto'
+    loop
+    muted
+    >
+        <source src="Assets-example/SampleVideo_1280x720_1mb.mp4"
+        type="Video/mp4">
+    </video>
+    
+</body>
+</html>

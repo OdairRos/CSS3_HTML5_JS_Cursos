@@ -1,4 +1,4 @@
 Esses são os cursos HTML da aba:
-	discovery -> preparação para astronautas
+	discovery -> Preparação para astronautas
 
-do site oficial da rocketseat: https://rocketseat.com.br/
+Do site oficial da rocketseat: https://rocketseat.com.br/
