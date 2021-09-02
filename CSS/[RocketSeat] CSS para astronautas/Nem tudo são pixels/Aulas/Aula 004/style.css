@@ -1,0 +1,10 @@
+:root{
+    font-size: 120%;
+}
+
+
+div{
+    background-color: red;
+    width:50%;
+    height:50%
+}

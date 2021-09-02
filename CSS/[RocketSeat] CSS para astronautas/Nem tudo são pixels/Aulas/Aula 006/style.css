@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    height:100vh;
+}
+
+.box{
+    height:calc(100% - 60px);
+    width: 100%;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position:center;
+}
