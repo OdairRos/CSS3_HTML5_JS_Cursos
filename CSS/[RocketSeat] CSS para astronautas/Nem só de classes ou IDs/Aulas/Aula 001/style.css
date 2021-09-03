@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    font-size: 100px;
+}
+
+p{
+    color:green;
+}
+
+
+#title{
+    background-color:black;
+}
+
+.texto{
+    box-shadow: 0 0 10px black;
+}
+
+[title]:hover, h1:hover{
+    color:orange;
+}
