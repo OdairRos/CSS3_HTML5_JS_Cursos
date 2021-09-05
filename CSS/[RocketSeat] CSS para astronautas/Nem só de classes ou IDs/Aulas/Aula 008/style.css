@@ -1,0 +1,8 @@
+article p:nth-child(3){
+    font-weight: bold;
+    font-size:18px
+}
+
+article h3:nth-child(1){
+    color:red;
+}

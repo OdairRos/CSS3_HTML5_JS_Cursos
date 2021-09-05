@@ -1,0 +1,7 @@
+article li:nth-child(even){
+    color:gray;
+}
+
+article li:nth-child(odd){
+    background: #eee;
+}
