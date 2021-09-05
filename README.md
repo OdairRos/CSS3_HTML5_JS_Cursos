@@ -13,7 +13,9 @@ Tabela de conteúdos
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Html%20que%20faz%20sentido%20para%20todos">RocketSeat - HTML Semântico</a></li>
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Formularios%20de%20outros%20planeta">RocketSeat - Formularios de outros planeta</a></li>
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Ver%20e%20ouvir%20com%20HTML">RocketSeat - Ver e ouvir HTML</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Pilotando%20a%20DOM	</p>">RocketSeat - Pilotando a DOM</a></li>
 	
-</p>
+	
+	
 
 
