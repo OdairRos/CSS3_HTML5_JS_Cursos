@@ -1,0 +1,14 @@
+input:focus{
+    border-color: red;
+}
+
+input:disabled{
+    background-color:blue;
+}
+input:required{
+    background-color:green;
+}
+
+a:hover{
+    color:red;
+}

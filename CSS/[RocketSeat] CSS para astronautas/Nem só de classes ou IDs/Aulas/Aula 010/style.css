@@ -1,0 +1,9 @@
+a:hover{
+    color:red;
+}
+
+input:focus{
+    border-radius: 10px;
+    border-color: red;
+    outline: none;
+}

@@ -1,0 +1,17 @@
+li{
+    position: relative;
+}
+
+li::after{
+    content: ';';
+    width: 100px;
+    height: 1px;
+    background-color:blue;
+    position: absolute;
+    bottom:0px;
+}
+
+p:nth-child(6)::first-line{
+    font-weight: bold;
+    color:red;
+}
