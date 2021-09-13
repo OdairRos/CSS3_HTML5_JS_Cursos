@@ -1,0 +1,8 @@
+div{
+    border: 10px  red solid ;
+    box-sizing: border-box;
+    border-top:  10px solid green;
+    border-bottom:  10px solid blue;
+    outline: yellow 10px solid;
+    text-align: center;
+}
