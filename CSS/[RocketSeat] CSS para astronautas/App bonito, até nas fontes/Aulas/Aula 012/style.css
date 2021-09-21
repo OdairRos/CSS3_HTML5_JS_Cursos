@@ -1,0 +1,9 @@
+p{
+    text-shadow: 2px 2px 2px red;
+    letter-spacing:1.2em;
+    text-align: center;
+    font-size:18pt;
+    background-color:black;
+    border: 1px solid red;
+    border-radius:20px;
+}
