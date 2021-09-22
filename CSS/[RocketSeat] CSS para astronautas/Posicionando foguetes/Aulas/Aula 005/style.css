@@ -1,0 +1,24 @@
+.box{
+    width:100px;
+    height:100px;
+    margin-bottom: 8px;
+}
+
+.Box1{
+    background-color:red;
+    position:absolute;
+    bottom:0;
+}
+
+main{
+    margin:100px;
+    position: relative;
+}
+
+.Box2{
+    background-color:green;
+}
+
+.Box3{
+    background-color:blue;
+}

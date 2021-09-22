@@ -1,0 +1,28 @@
+.box{
+    height:100px;
+    width:100px;
+    margin-bottom: 8px;
+   
+}
+
+.Box1{
+    background-color:red;
+    position: relative;
+    left:110px;
+    top:108px;
+}
+
+.Box2{
+    background-color:green;
+
+}
+.Box3{
+    background-color: blue;
+}
+
+.Box4{
+    background-color:yellow;
+    position: relative;
+    left: 110px;
+    bottom: 108px;
+}
