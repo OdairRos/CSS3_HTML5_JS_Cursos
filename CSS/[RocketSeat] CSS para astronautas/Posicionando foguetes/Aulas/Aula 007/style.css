@@ -1,0 +1,27 @@
+.box{
+    width:100px;
+    height:100px;
+    margin-bottom: 8px;}
+
+.Box1{
+    background-color:red;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 2;    
+}
+
+.Box2{
+    position:absolute;
+    background-color:green;
+    top: 10px;
+    left: 10px;
+    z-index: 1;}
+
+.Box3{
+    position:absolute;
+    background-color:blue;
+    top: 15px;
+    left: 15px;
+    z-index: 0;
+    }
