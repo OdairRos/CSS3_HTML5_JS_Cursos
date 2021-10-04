@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    border: 1px dashed red;
+    flex-flow:  row wrap;
+}
+
+.items{
+    border: 1px solid;
+    width: 80px;
+}

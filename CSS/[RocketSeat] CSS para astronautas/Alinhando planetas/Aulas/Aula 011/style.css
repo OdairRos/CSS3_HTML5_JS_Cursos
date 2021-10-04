@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    height: 150px;
+}
+
+.items{
+    border: 1px solid;
+}
