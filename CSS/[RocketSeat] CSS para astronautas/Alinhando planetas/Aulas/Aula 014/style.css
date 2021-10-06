@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    border: 1px dashed red;
+}
+
+.items{
+    border: 1px solid;
+    flex-basis: auto;
+}
+
+#a{
+    width:50px
+}

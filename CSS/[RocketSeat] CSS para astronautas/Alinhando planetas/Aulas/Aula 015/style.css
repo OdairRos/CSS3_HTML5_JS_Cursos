@@ -1,0 +1,20 @@
+.container {
+    display:flex;
+    border: 1px dashed red;
+
+    flex-direction: column;
+    height:150px;
+}
+
+.items{
+    border: 1px solid;
+}
+
+.items:nth-child(2),
+.items:nth-child(3){
+    flex-grow: 1;
+}
+
+.items:nth-child(1){
+    flex-grow: 2;
+}
