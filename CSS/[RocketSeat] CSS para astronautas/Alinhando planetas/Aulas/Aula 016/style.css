@@ -1,0 +1,19 @@
+.container {
+    display:flex;
+    border: 1px dashed red;
+    height:150px;
+}
+
+.items{
+    flex-basis: 900%;
+    border: 1px solid;
+}
+
+.items:nth-child(2),
+.items:nth-child(3){
+   flex-shrink: 0.3;
+}
+
+.items:nth-child(1){
+    flex-grow: 2;
+}
