@@ -1,0 +1,14 @@
+
+.container {
+    display:flex;
+    border: 1px dashed red;
+    height:150px;
+    align-items: center;
+}
+
+.items{
+   border: 1px solid;
+   flex: 0 0  100px;
+   
+}
+
