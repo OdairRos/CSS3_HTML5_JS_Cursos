@@ -1,0 +1,30 @@
+.page{
+    border:2px solid;
+    min-height: 100vh;
+    display: flex;
+}
+
+aside{
+    background-color:lightsalmon;
+    flex:1;
+
+}
+main{
+    background-color:lightblue;
+    flex:2 ;
+    display: flex;
+    flex-direction:column;
+}
+
+main section:nth-child(1){
+    flex:2;
+    background-color: lightpink;
+}
+main section:nth-child(2){
+    background-color:lightcoral;
+    flex:0 100px;
+}
+main section:nth-child(3){
+    background-color:rgb(209, 209, 209);
+    flex:1;
+}
