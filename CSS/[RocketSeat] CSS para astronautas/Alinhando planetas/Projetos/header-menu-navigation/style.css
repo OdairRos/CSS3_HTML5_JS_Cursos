@@ -1,0 +1,67 @@
+p{
+    display: flex;
+    color: rgb(100, 94, 112);
+
+}
+
+body{
+    background-color:lightgray;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font: bolder;
+    
+}
+.container{
+    border-radius:3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    background-color: rgb(100, 94, 112);
+    width:90vh;
+    height: 50px;
+}
+
+.ball{
+    background-color: rgb(74, 70, 83);
+    height:15px;
+    width:15px;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.main-header{
+    border-radius:3px;
+    display:flex;
+    background-color:white;
+    height:200px;
+    width:90vh;
+    align-items: center;
+}
+
+#logo{
+    flex:2;
+    position: relative;
+    left: 100px;
+
+
+}
+
+#bt-contact{
+    color: white;
+    margin:20px;
+    flex:0.3;
+    background-color:rgb(0, 0, 255);
+    padding: .8rem;
+    border-radius: 10px;
+  
+}
+
+#navigation{
+    display: flex;
+    list-style: none;
+    flex:2;
+    gap: .8rem;
+
+}
