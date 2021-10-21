@@ -33,28 +33,35 @@ body{
 :root{height:100vh; width:100%}
 
 .main{
+    display: flex;
     background-color:white;
     width:90vh;
-    height:100vh;
+    height:30vh;
     border-radius:3px
 }
 
-section{
+div{
     display:flex;
-}
-.box{
-    border: 1px solid gray;
-    height:90vh;
-    width:50vh;
-    margin:10px;
-    margin-top:40px;
+    align-items:center; 
 }
 
-#nav-bar{
-    flex:0.7;
-    background-color: rgb(221, 221, 221);
+.ball:hover{
+    background-color:rgb(82, 252, 133);
+}
+button{
+    background:linear-gradient(black, white,red);
+    font-size: 20px;
+    margin:20px;
+    position: relative;
+    left:25vh;
+    top: 5vh;
+    display:flex;
+    align-items:center;
+    height:60px;
+    width:120px;
+    transition: background;
 }
 
-#main-content{
-    flex:1.3
+button:hover{
+    background:linear-gradient(10deg,rgb(0, 0, 0), white,red);
 }
