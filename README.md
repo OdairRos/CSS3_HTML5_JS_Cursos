@@ -15,6 +15,13 @@ Tabela de conteúdos
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Ver%20e%20ouvir%20com%20HTML">RocketSeat - HTML Ver e ouvir </a></li>
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/HTML/%5BRocketSeat%5D%20Html%20para%20Astronautas/Pilotando%20a%20DOM"> RocketSeat - JS Pilotando a DOM</a></li>
 	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/Nem%20tudo%20s%C3%A3o%20pixels/Aulas"> RocketSeat - CSS Nem tudo são pixels </a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/Agora%20sim%2C%20cores">RocketSeat- CSS Agora sim cores</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/Alinhando%20planetas">RocketSeat- CSS Alinhando planetas</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/App%20bonito%2C%20at%C3%A9%20nas%20fontes/Aulas">RocketSeat- CSS App bonito, até nas fontes</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/Nem%20s%C3%B3%20de%20classes%20ou%20IDs/Aulas">RocketSeat- CSS Nem só de classes e IDs</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/Posicionando%20foguetes/Aulas">RocketSeat- CSS Posicionando foguetes</a></li>
+	<li><a href="https://github.com/OdairRos/CSS3_HTML5_JS_Cursos/tree/main/CSS/%5BRocketSeat%5D%20CSS%20para%20astronautas/Uma%20caixa%20dentro%20da%20outra/Aulas">RocketSeat- CSS Uma caixa dentro da outra</a></li>
+
 
 	
 	
