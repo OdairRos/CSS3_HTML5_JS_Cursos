@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONload</title>
+</head>
+<body>
+    <img src="https://source.unsplash.com/random" alt="">
+
+    <script>
+        function hide(event) { event.target.style.visibility = "hidden"; }
+
+        window.onload = function(){
+            var images = document.getElementBytagName('img');
+            for(var i=0; i<images.length; i++){
+                if(imgages.addEventListener){
+                    images.addEventListener("click", hide, false)
+                }
+                else{
+                    images.addEventListener("click",hide)
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>

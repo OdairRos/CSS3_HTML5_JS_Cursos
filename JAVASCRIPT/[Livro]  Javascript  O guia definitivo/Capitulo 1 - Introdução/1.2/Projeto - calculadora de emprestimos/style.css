@@ -1,0 +1,11 @@
+.saida{
+    font-weight: bold;
+}
+#pagamento{
+    text-decoration: underline;
+}
+
+#grafico{
+    border: solid 1px;
+}
+th,td{vertical-align: top}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de emprestimo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Digite a data do emprestimo</th>
+            <td></td>
+            <th>Balanço emprestimo, acumulativo, quitavel e pagamentos interessantes</th>
+        </tr>
+
+        <tr>
+            <td>Quantidade do emprestimo($): </td>
+            <td><input type="text" id='quantidade' onchange='calcular()'></td>
+            <td rowspan="8">
+                <canvas id=grafico width='400px' height='250px'></canvas>
+            </td>
+        </tr>
+        <tr>
+            <td>Interesse anual($):</td>
+            <td>
+                <input type="text" id='apr' onchange='calcular()'>
+            </td>
+        </tr>
+        <tr>
+            <td>Periodo pagamento(anos)</td>
+            <td>
+                <input type="text" id='anos' onchange='calcular()'>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Zipcode(para achar credores)</td>
+            <td><input type="text" id='zipcode' name='zipcode' onchange='calcular()'></td>
+        </tr>
+        <tr>
+            <th>Pagamentos aproximados</th>
+            <td><button onclick='calcular()'>Cakcular</button></td>
+        </tr>
+        <tr>
+            <td>Pagamento mensal:</td>
+            <td>$<span class='saida' id='pagamento'></span></td>
+        </tr>
+        <tr>
+            <td>Pagamento total:</td>
+            <td>$<span class='saida' id='total'></span></td>
+        </tr>
+        <tr>
+            <td>Total interessado</td>
+            <td>$<span class='saida' id='total-interessado'></span></td>
+        </tr>
+        <tr>
+            <th>Patrocinadores:</th>
+            <td colspan='2'>
+                Aplique para seu emprestimo com uma dessas marcas 
+                <div id='lenders'></div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

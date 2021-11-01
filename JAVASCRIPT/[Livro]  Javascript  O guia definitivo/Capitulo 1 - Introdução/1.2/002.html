@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function moveOn() {
+            // Exibe uma caixa de dialogo modal para fazer uma pergunta ao usuario
+            var pergunta = confirm('Preparado para seguir em frente? ')
+            // se ele clicar OK faz com que o navegador carregue uma pagina nova
+            if(pergunta) window.location = 'http://google.com'
+        }
+        setTimeout(moveOn,60)
+    </script>
+
+ 
+</body>
+</html>

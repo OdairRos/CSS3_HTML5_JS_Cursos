@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+</head>
+<body>
+
+    Hello
+    <button onclick="hide(this,true); debug('hide button 1');">hide1</button>
+    <button onclick="hide(this); debug('hide button 2');">hide2</button>
+    World!
+
+    <script>
+        function hide(e, reflow) {
+            if(reflow){
+                e.style.display = "none";
+            }else{
+                e.style.visibility = "hidden";
+            }
+        }
+        function debug(){
+            var log = document.getElementById("debuglog");
+
+            // se não existir algum elemento debuglog ele ira criar um elemento
+            if(!log){
+                log = document.createElement("div");
+                log.id = "debuglog";
+                log.innerHTML = "<h1>Debug log</h1>";
+                document.body.appendChild(log);
+            }
+            
+            var pre = document.createElement("pre");
+            var text = document.createTextNode(msg)
+            log.appendChild(text);
+            log.appendChild(pre);}
+        function highlight(e){
+            if(!e.clasName) e.clasName = 'hilite';
+            else e.clasName += 'hilite';
+        }
+    </script>
+</body>
+</html>
